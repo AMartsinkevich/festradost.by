@@ -9,15 +9,38 @@ html {
 }
 
 @font-face {
-    font-family: "Officina Sans";
-    src: url("/assets/fonts/OfficinaSansBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-family: "OfficinaSansBold";
+    src: url("../fonts/OfficinaSansBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OfficinaSansBoldItalic";
+    src: url("../fonts/OfficinaSansBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OfficinaSansBook";
+    src: url("../fonts/OfficinaSansBook.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OfficinaSansBookItalic";
+    src: url("../fonts/OfficinaSansBookItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OfficinaSansMedium";
+    src: url("../fonts/OfficinaSansMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OfficinaSansMediumItalic";
+    src: url("../fonts/OfficinaSansMediumItalic.ttf") format("truetype");
 }
 
 body {
     font-size: 1.6rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: OfficinaSansBook;
     width: 1080px;
     /* 100%; */
     min-height: 100vh;
@@ -41,29 +64,45 @@ div {
 
 .header {
     height: calc(200px + 200px);
-    background-image: url(/assets/images/shapka.png);
+    background-image: url(../images/shapka.png);
     background-repeat: no-repeat;
     position: relative;
-    margin-bottom: -300px;
-    
+    margin-bottom: -450px;    
+}
+
+.header__text {
+    position: relative;
+    top: -90px;
 }
 
 .promo {
     height: 1280px;
-    background-image: url(/assets/images/fon.jpg);
+    background-image: url(../images/fon.jpg);
     background-repeat: no-repeat;
+}
+
+.promo__name {
+    position: relative;
+    top: 230px;
+    left: 50px;
+    text-transform: uppercase;
+}
+
+.promo_place {
+    position: relative;
+    top: 250px;
 }
 
 .calendar {
     height: 1140px;
-    background-image: url(/assets/images/fon.jpg);
+    background-image: url(../images/fon.jpg);
     background-repeat: no-repeat;
     background-position: 0px -1280px;
 }
 
 .footer {
     height: 430px;
-    background-image: url(/assets/images/fon_niz.jpg);
+    background-image: url(../images/fon_niz.jpg);
     background-repeat: no-repeat;
 }
 
@@ -84,27 +123,27 @@ div {
 .button-calendar {
     margin-top: 120px;
     margin-bottom: 80px;
-    background-image: url(/assets/images/button_calendar.png);    
+    background-image: url(../images/button_calendar.png);    
 }
 
 .button-guests {
-    background-image: url(/assets/images/button_gosti.png);
+    background-image: url(../images/button_gosti.png);
 }
 
 .button-places {
-    background-image: url(/assets/images/button_ploschad.png);
+    background-image: url(../images/button_ploschad.png);
 }
 
 .button-event {
-    background-image: url(/assets/images/button_sobytie.png);
+    background-image: url(../images/button_sobytie.png);
 }
 
 .button-sponsors {
-    background-image: url(/assets/images/button_blagotvoriteli.png);
+    background-image: url(../images/button_blagotvoriteli.png);
 }
 
 .button-route {
-    background-image: url(/assets/images/button_kak_dobratsya.png);
+    background-image: url(../images/button_kak_dobratsya.png);
 }
 
 .button:hover {
@@ -121,23 +160,23 @@ div {
 }
 
 .icon-email {
-    background-image: url(/assets/images/mail.png);
+    background-image: url(../images/mail.png);
 }
 
 .icon-vk {
-    background-image: url(/assets/images/vk.png);
+    background-image: url(../images/vk.png);
 }
 
 .icon-fb {
-    background-image: url(/assets/images/fb.png);
+    background-image: url(../images/fb.png);
 }
 
 .icon-ok {
-    background-image: url(/assets/images/ok.png);
+    background-image: url(../images/ok.png);
 }
 
 .icon-instagram {
-    background-image: url(/assets/images/inst.png);
+    background-image: url(../images/inst.png);
 }
 
 .icon:hover {
@@ -162,7 +201,7 @@ div {
 .footer__navigation .navigation {
     margin-left: 50px;
     margin-right: 50px;
-    font-family: Officina Sans;
+    font-family: OfficinaSansBook;
     justify-items: center;
     display: grid;
     grid-auto-columns:auto; 
@@ -182,7 +221,7 @@ div {
     position: relative;
     top: 20px;
     left: -30px;
-    background-image: url(/assets/images/dot.png);
+    background-image: url(../images/dot.png);
     background-repeat: no-repeat;
 }
 
@@ -209,23 +248,22 @@ div {
 
 .header_text {
     color: white;
-    font-family: Officina Sans;
+    font-family: OfficinaSansBook;
     font-size: +4rem;
     margin-left: 270px;
 }
 
 .promo__name {
     color: rgb(240, 98, 98);
-    font-family: Officina Sans;
+    font-family: OfficinaSansBook;
     font-size: +6rem;
-    margin-left: 20px;
     margin-top: 230px;
 }
 
 .promo_place {
     margin-top: 550px;
     color: rgb(240, 98, 98);
-    font-family: Officina Sans;
+    font-family: OfficinaSansBook;
     font-size: +3rem;
     vertical-align: center;   
 }
@@ -236,7 +274,7 @@ div {
     height: 170px;
     margin-left: 200px;
     margin-right: 20px;
-    background-image: url(/assets/images/button_map.png);
+    background-image: url(../images/button_map.png);
     background-repeat: no-repeat;
 }
 
@@ -244,6 +282,19 @@ div {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.icon-delimiter {
+    display: inline-block;
+    background: url(../images/line_border.png);
+    background-repeat: no-repeat;
+    width: 973px;
+    height: 47px;
+    top: 240px;
+    left: 50px;
+    position: relative;
 }
 
 .place {
@@ -253,4 +304,21 @@ div {
 
 .p {
     font-size: -3rem;
+}
+
+.header__navigation .navigation {
+    display: none;
+}
+
+.header__navigation {
+    display: inline-block;
+    background: url("../images/menu_line.png");
+    background-repeat: no-repeat;
+    width: 116px;
+    height: 62px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    margin-left: 40px;
+    margin-top: 40px;
 }
