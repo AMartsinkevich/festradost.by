@@ -12,7 +12,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="wrapper">
+        <div class="wrapper" onClick="document.getElementById('menu').scrollIntoView();">
             
             <nav class="header__navigation">
                 <ul class="navigation">
@@ -58,14 +58,48 @@
         </div>        
     </section>
 
-    <section class="calendar">
+    <section class="calendar" id="menu">
         <div class="wrapper">
-            <span class="button button-big button-calendar"></span>
-            <span class="button button-guests"></span>
+            <span class="button button-big button-calendar" onClick="document.getElementById('calendar').scrollIntoView();"></span>
+            <span class="button button-guests" onClick="document.getElementById('guests').scrollIntoView();"></span>
             <span class="button button-places"></span>
             <span class="button button-event"></span>
             <span class="button button-sponsors"></span>
             <span class="button button-route"></span>
+        </div>
+    </section>
+
+    <section class="sub-calendar" id="calendar">
+        <div class="wrapper">
+            <span class="date date-07"></span>
+            <span class="date date-08"></span>
+            <span class="date date-09"></span>
+            <span class="date date-10"></span>
+            <span class="date date-11"></span>
+            <span class="date date-12"></span>
+            <span class="date date-13"></span>
+            <span class="date date-14"></span>
+            <span class="date date-15"></span>
+            <span class="date date-16"></span>
+            <span class="date date-17"></span>
+        </div>
+    </section>
+
+    <section class="sub-guests" id="guests">
+        <div class="wrapper">
+            <span class="guest-photo"></span>
+            <h2>Виктория Макарская</h2>
+            <span class="melody"></span>
+            <p class="guest">Певица Виктория Макарская стала дорогим другом нашего фестиваля.</p>
+            <p class="guest">В Минск на фестиваль "Радость" она приезжает уже третий раз и каждый раз собирает полный зал. Сама Виктория говорит, что для неё эти встречи пролетают как один миг.</p>
+            <p class="guest">Ставший уже традиционным минский "Баб-совет" певицы - это всегда тёплый, искренний, сердечный разговор со зрителем.</p>
+            <p class="guest">Как научиться радоваться жизни? Как жить в мире с ближними и с Богом? Как выстраивать тёплую атмосферу дома, в семье?</p>
+            <p class="guest">Виктория всегда честно, пронзительно, с юмором отвечает на эти и другие вопросы. И всегда поёт вживую свои песни так, что зрители плачут и как будто делают вдох.</p>
+            <p class="guest">Девочки делятся, что после встречи с Викторией бегут домой, чтобы обнять своих близких и сказать им слова любви.</p>
+            <div class="guest-date">
+                <p class="guest_date text1">12 апреля в 16.00</p>
+                <p class="guest_date text2">Ждём вас на "Баб-совете"</p>
+            </div>
         </div>
     </section>
 
@@ -81,7 +115,7 @@
         </div>
         <nav class="footer__navigation">
             <ul class="navigation">
-                <li class="sub">Гости фестиваля</li>
+                <li class="sub" onClick="document.getElementById('guests').scrollIntoView();">Гости фестиваля</li>
                 <li class="sub">Площадки</li>
                 <li class="sub">Событие дня</li>
                 <li class="sub">Благотворители</li>

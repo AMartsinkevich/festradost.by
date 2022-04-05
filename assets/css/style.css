@@ -322,3 +322,133 @@ div {
     margin-left: 40px;
     margin-top: 40px;
 }
+
+.header .wrapper:hover {
+    cursor: pointer;
+}
+
+[class^="date"] {
+    display: grid;
+    width: 466px;
+    height: 169px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.sub-calendar .wrapper {
+    display: grid;
+    justify-items: center;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+}
+
+.date-07 {
+    background-image: url(../images/calendar/7.png);    
+}
+
+.date-08 {
+    background-image: url(../images/calendar/8.png);    
+}
+
+.date-09 {
+    background-image: url(../images/calendar/9.png);    
+}
+
+.date-10 {
+    background-image: url(../images/calendar/10.png);    
+}
+
+.date-11 {
+    background-image: url(../images/calendar/11.png);    
+}
+
+.date-12 {
+    background-image: url(../images/calendar/12.png);    
+}
+
+.date-13 {
+    background-image: url(../images/calendar/13.png);    
+}
+
+.date-14 {
+    background-image: url(../images/calendar/14.png);    
+}
+
+.date-15 {
+    background-image: url(../images/calendar/15.png);    
+}
+
+.date-16 {
+    background-image: url(../images/calendar/16.png);    
+}
+
+.date-17 {
+    background-image: url(../images/calendar/17.png);
+    position:relative;
+    left: 280px;    
+}
+
+.sub-guests .wrapper {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.guest-photo {
+    display: inline-block;
+    width: 593px;
+    height: 592px;
+    background: url("../images/gosti/pic_Makarskaya.png");
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: OfficinaSansBook;
+    color:rgb(178, 64, 90);
+    font-size: +5rem;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.melody {
+    display: inline-block;
+    width: 973px;
+    height: 48px;
+    background: url("../images/gosti/line_border_gosti.png");
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.guest {
+    margin-top: 15px;
+    font-family: OfficinaSansBook;
+    font-size: +3rem;
+    text-align: justify;
+}
+
+.guest-date {
+    margin-top: 50px;
+    display: inline-block;
+    width: 973px;
+    height: 300px;
+    background: url("../images/gosti/gosti_niz.png");
+    background-repeat: no-repeat;
+}
+
+.guest-date .text1 {
+    color: rgb(178, 64, 90);
+    font-family: OfficinaSansBook;
+    font-size: +6rem;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.guest-date .text2 {
+    color: rgb(178, 64, 90);
+    font-family: OfficinaSansBook;
+    font-size: +3.5rem;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
