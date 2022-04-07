@@ -63,9 +63,9 @@
             <span class="button button-big button-calendar" onClick="location.href = 'https://obitel-minsk.ru/radost/programma-meropriyatij'"></span>
             <span class="button button-guests" onClick="document.getElementById('guests').scrollIntoView();"></span>
             <span class="button button-places"></span>
-            <span class="button button-event"></span>
+            <span class="button button-event" onClick="document.getElementById('day').scrollIntoView();"></span>
             <span class="button button-sponsors"></span>
-            <span class="button button-route"></span>
+            <span class="button button-route" onClick="document.getElementById('map').scrollIntoView();"></span>
         </div>
     </section>
 
@@ -103,10 +103,80 @@
         </div>
     </section>
 
+    <section class="event" id="day">
+        <div class="wrapper">
+            <span class="day-line"></span>
+            <div class="event-text">
+                <p class="day-text-main">
+                    <b>Проект «Живое слово»</b><br><br></p>
+
+                <p class="day-text">
+                    <b>Тема «Православие на белорусских землях: 1030 летний путь»</b><br><br>
+                </p>
+                <span class="day-guest1"></span>
+                <p class="day-text">
+                    профессор Валентина Теплова<br><br>
+
+                    Этот год в нашей стране объявлен годом
+                    исторической памяти. Он совпал с 1030-летием
+                    принятия православия на белорусской земле.
+                    Поговорим о пути православной веры, о ее кризисах,
+                    испытаниях и возрождении.<br><br><br>
+
+
+                    <b>Тема «С чего начинается
+                    Родина?»</b><br><br>
+                </p>
+                <span class="day-guest2"></span>
+                <p class="day-text">
+                    Монахиня Мария
+                    (Литвинова),<br>
+                    насельница
+                    Свято-Елисаветинского
+                    монастыря.<br><br>
+
+                    Встречу с монахиней Марией (Литвиновой) ждут
+                    всегда. Для каждого человека родина своя.
+                    Она может быть очень маленькой и связанной с
+                    памятью казалось бы незначительных, но дорогих
+                    сердцу вещах – кусте сирени во дворе бабушки,
+                    ступеньки у дома, кошки на цветном заборе,
+                    надписи на асфальте цветным мелком, прохладной
+                    летней реке.<br><br>
+
+                    Эти маленькие родины вместе и составляют одно
+                    большое слово Родина. Приглашаем на живое
+                    слово об этом.<br>
+                </p>
+            </div>
+            <span class="day-line"></span>
+        </div>
+    </section>
+
+    <section class="map" id="map">
+        <div class="wrapper">
+            <div class="route">
+                <div style="position:relative;overflow:hidden;" class="map-yandex">
+                    <a href="https://yandex.by/maps/157/minsk/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Минск</a><a href="https://yandex.by/maps/157/minsk/house/Zk4YcwBpTkUPQFtpfXVwcX5kbA==/?ll=27.576930%2C53.910667&utm_medium=mapframe&utm_source=maps&z=16.84" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Козлова, 3 — Яндекс Карты</a>
+                    <iframe src="https://yandex.by/map-widget/v1/-/CCUBnXSstA" width="870" height="700" frameborder="1" allowfullscreen="true" style="position:relative;">
+                    </iframe>
+                </div>
+            </div>
+            <div class="route-info">
+                <p class="route-text">Как добраться<br>
+                    г. Минск, ул. Козлова, 3,<br>
+                    Дворец искусства<br>
+                    (ст. м. «Площадь. Победы)<br>
+                    автобус № 100, остановка «ул. Козлова»</p>
+            </div>
+            <span class="route-icon"></span>
+        </div>
+    </section>
+
     <footer class="footer">
         <div class="wrapper">
             <div class="social">
-                <span class="icon icon-email"></span>
+                <span class="icon icon-email" onClick="location.href = 'mailto:f.radost@yandex.by'"></span>
                 <span class="icon icon-vk"></span>
                 <span class="icon icon-fb"></span>
                 <span class="icon icon-ok"></span>
@@ -117,9 +187,9 @@
             <ul class="navigation">
                 <li class="sub" onClick="document.getElementById('guests').scrollIntoView();">Гости фестиваля</li>
                 <li class="sub">Площадки</li>
-                <li class="sub">Событие дня</li>
+                <li class="sub" onClick="document.getElementById('day').scrollIntoView();">Событие дня</li>
                 <li class="sub">Благотворители</li>
-                <li class="sub">Как добраться</li>
+                <li class="sub" onClick="document.getElementById('map').scrollIntoView();">Как добраться</li>
             </ul>
         </nav>
         <div class="copyright">

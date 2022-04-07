@@ -38,6 +38,11 @@ html {
     src: url("../fonts/OfficinaSansMediumItalic.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "Triod_Postnaja";
+    src: url("../fonts/Triod_Postnaja.ttf") format("truetype");
+}
+
 body {
     font-size: 1.6rem;
     font-family: OfficinaSansBook;
@@ -148,6 +153,7 @@ div {
 
 .button:hover {
     cursor: pointer;
+    filter: drop-shadow(10px 10px 15px rgba(112, 95, 57, 0.2));
 }
 
 .icon {
@@ -181,6 +187,7 @@ div {
 
 .icon:hover {
     cursor: pointer;
+    filter: drop-shadow(10px 10px 15px rgba(112, 95, 57, 0.2));
 }
 
 [class^="icon"] {
@@ -234,6 +241,7 @@ div {
 
 .sub:hover {
     cursor: pointer;
+    filter: drop-shadow(10px 10px 15px rgba(112, 95, 57, 0.2));
 }
 
 .copyright {
@@ -455,4 +463,131 @@ h2 {
 
 .date:hover {
     cursor: pointer;
+    filter: drop-shadow(10px 10px 15px rgba(112, 95, 57, 0.2));
+}
+
+.route {
+    text-align: center;
+    margin-top: 50px;;
+    margin-bottom: 150px;
+}
+
+.map-yandex {
+    background: url(../images/map/map_frame.png);
+    background-repeat: no-repeat;
+    width: 892px;
+    height: 718px;
+    left: 90px;
+}
+
+.map-yandex iframe {
+    margin-top:10px;
+}
+
+.map .wrapper {
+    text-align: center;
+}
+
+.route-text {
+    color: rgb(178, 64, 90);
+    font-family: OfficinaSansBook;
+    font-size: +3.5rem;
+    margin-top: -80px;
+    margin-bottom: 40px;
+}
+
+.route-icon {
+    display: inline-block;
+    background: url(../images/map/map_pic.png);
+    background-repeat: no-repeat;
+    width: 973px;
+    height: 211px;
+    margin-bottom: 80px;;
+}
+
+.event .wrapper {
+    text-align: center;
+}
+
+.day-text-main {
+        color: rgb(178, 64, 90);
+        font-family: OfficinaSansBook;
+        font-size: +5rem;
+}
+
+.day-guest1 {
+    display: inline-block;
+    background: url(../images/day/pic_Teplova.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+}
+
+.day-guest2 {
+    display: inline-block;
+    background: url(../images/day/pic_m_Mariya.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+}
+
+.day-line {
+    display: inline-block;
+    background: url(../images/day/line.png);
+    background-repeat: no-repeat;
+    width: 972px;
+    height: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.day-text {
+    color: rgb(0, 0, 0);
+    font-family: OfficinaSansBook;
+    font-size: +3rem;
+}
+
+.event-text {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+@media (max-device-width: 700px) {
+    body {
+        transform-origin: 0 0;
+        transform: scale(0.55);
+    }
+}
+
+@media (min-device-width: 701px) and (max-device-width: 900px) {
+    body {
+        transform-origin: 0 0;
+        transform: scale(0.65);
+    }
+}
+
+@media (min-device-width: 901px) and (max-device-width: 1080px) {
+    body {
+        transform-origin: 0 0;
+        transform: scale(0.84);
+    }
+}
+
+@media (min-device-width: 1081px) {
+    body {
+        background-image: linear-gradient(
+            rgb(238,121,130) 0%,
+            rgb(220,69,88) 200px,
+            rgb(253,235,189) 220px,
+            rgb(253,235,189) 1000px,
+            rgb(248, 241, 223) 1200px,
+            rgb(255, 255, 255) 2000px,
+            rgb(255, 255, 255) 90%,
+            rgb(253,235,189) 97%,
+            rgb(220,69,88) 98%,
+            rgb(220,69,88) 100%);
+        margin-left: calc((100% - 1080px)/2);
+    }
+
 }
