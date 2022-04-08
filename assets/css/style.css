@@ -515,6 +515,58 @@ h2 {
         font-size: +5rem;
 }
 
+.places-text-main {
+    color: rgb(178, 64, 90);
+    font-family: OfficinaSansBook;
+    font-size: +5rem;
+    margin-bottom: 30px;
+}
+
+.places-text {
+    color: rgb(0, 0, 0);
+    font-family: OfficinaSansBook;
+    font-size: +3rem;
+}
+
+.places-line1 {
+    display: inline-block;
+    background: url(../images/places/pic_1.png);
+    background-repeat: no-repeat;
+    width: 973px;
+    height: 201px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.places-line2 {
+    display: inline-block;
+    background: url(../images/places/pic_2.png);
+    background-repeat: no-repeat;
+    width: 973px;
+    height: 201px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.places-line3 {
+    display: inline-block;
+    background: url(../images/places/pic_3.png);
+    background-repeat: no-repeat;
+    width: 973px;
+    height: 201px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.places-text {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.places .wrapper {
+    text-align: center;
+}
+
 .day-guest1 {
     display: inline-block;
     background: url(../images/day/pic_Teplova.png);
@@ -547,9 +599,167 @@ h2 {
     font-size: +3rem;
 }
 
+.day-ico {
+    display: inline-block;
+    background: url(../images/day/calendar.png);
+    background-repeat: no-repeat;
+    width: 295px;
+    height: 352px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.day-ico-time {
+    display: inline-block;
+    background: url(../images/day/clock.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: -300px;
+}
+
+.day-ico-time-right {
+    display: inline-block;
+    background: url(../images/day/clock.png);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.day-ico-time-text-right {
+    color: rgb(210, 48, 85);
+    font-family: OfficinaSansBook;
+    font-size: +5rem;
+    margin-left: 120px;
+    margin-top: -120px;
+}
+
+.event-header {
+    text-align: left;
+}
+
+.day-ico-time-text {
+    color: rgb(210, 48, 85);
+    font-family: OfficinaSansBook;
+    font-size: +5rem;
+    margin-left: 70px;
+}
+
+.day-8-person1 {
+    display: inline-block;
+    background: url(../images/day/8/o_Sergii.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-8-person2 {
+    display: inline-block;
+    background: url(../images/day/8/shapko.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-8-person3 {
+    display: inline-block;
+    background: url(../images/day/8/batleika.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.event-header-text {
+    width: 500px;
+    margin-left: 450px;
+    margin-top: -450px;
+    margin-bottom: 200px;
+}
+
+.h-red {
+    color: rgb(210, 48, 85);
+    font-family: OfficinaSansBook;
+    font-size: +3rem;
+    margin-bottom: 60px;;
+}
+
+.h-black {
+    color: rgb(0, 0, 0);
+    font-family: OfficinaSansBook;
+    font-size: +3rem;
+}
+
+.day-ico-text {
+    color: rgb(210, 48, 85);
+    font-family: OfficinaSansBook;
+    font-size: +15rem;
+    margin-top: 80px;
+}
+
 .event-text {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.event-day-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.sponsors .wrapper {
+    text-align: center;
+}
+
+.sponsors-ico {
+    display: inline-block;
+    background: url(../images/sponsors/pic_1.png);
+    background-repeat: no-repeat;
+    width: 972px;
+    height: 204px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sponsors-names {
+    display: inline-block;
+    background: url(../images/sponsors/logo_blagotvoritel.png);
+    background-repeat: no-repeat;
+    width: 1030px;
+    height: 1914px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sponsors-line {
+    display: inline-block;
+    background: url(../images/sponsors/line.png);
+    background-repeat: no-repeat;
+    width: 972px;
+    height: 4px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@me dia (max-device-width: 1080px) {
+    body {
+        transform-origin: 0 0;
+        transform: scale(calc((100vw — 500px) / (1080–500)));
+    }
 }
 
 
