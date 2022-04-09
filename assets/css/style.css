@@ -650,9 +650,9 @@ h2 {
     margin-left: 70px;
 }
 
-.day-8-person1 {
+.day-9-person1 {
     display: inline-block;
-    background: url(../images/day/8/o_Sergii.png);
+    background: url(../images/day/9/anima.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -661,9 +661,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-8-person2 {
+.day-9-person2 {
     display: inline-block;
-    background: url(../images/day/8/shapko.png);
+    background: url(../images/day/9/voina.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -672,9 +672,13 @@ h2 {
     margin-left: 40px;
 }
 
-.day-8-person3 {
+.big {
+    font-size: 3rem;
+}
+
+.day-9-person3 {
     display: inline-block;
-    background: url(../images/day/8/batleika.png);
+    background: url(../images/day/9/koncert.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -682,6 +686,51 @@ h2 {
     margin-bottom: 50px;
     margin-left: 40px;
 }
+
+.day-9-person4 {
+    display: inline-block;
+    background: url(../images/day/9/lidiya_skachko.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-9-person5 {
+    display: inline-block;
+    background: url(../images/day/9/);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-10-person1 {
+    display: inline-block;
+    background: url(../images/day/10/dashkevich.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-10-person2 {
+    display: inline-block;
+    background: url(../images/day/10/homich.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
 
 .event-header-text {
     width: 500px;
@@ -755,32 +804,35 @@ h2 {
     margin-bottom: 50px;
 }
 
-@me dia (max-device-width: 1080px) {
+@media (max-device-width: 500px) {
     body {
         transform-origin: 0 0;
-        transform: scale(calc((100vw — 500px) / (1080–500)));
+        transform: scale(0.35);
+        height: calc(0.35 * 100vh);
     }
 }
 
-
-@media (max-device-width: 700px) {
+@media (min-device-width: 501px) and (max-device-width: 700px) {
     body {
         transform-origin: 0 0;
-        transform: scale(0.55);
+        transform: scale(0.5);
+        height: calc(0.5 * 100vh);
     }
 }
 
 @media (min-device-width: 701px) and (max-device-width: 900px) {
     body {
         transform-origin: 0 0;
-        transform: scale(0.65);
+        transform: scale(0.76);
+        height: calc(0.76 * 100vh);
     }
 }
 
 @media (min-device-width: 901px) and (max-device-width: 1080px) {
     body {
         transform-origin: 0 0;
-        transform: scale(0.84);
+        transform: scale(0.95);
+        height: calc(0.95 * 100vh);
     }
 }
 
@@ -799,5 +851,40 @@ h2 {
             rgb(220,69,88) 100%);
         margin-left: calc((100% - 1080px)/2);
     }
+    .home {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: inline-block;
+        text-decoration: none;
+        padding: 6px 23px;
+        font-size: 17px;
+        transition: 0.33s all ease-out;
+        background-color: rgb(253,235,189);
+    }
 
+    .home:hover {
+        background-color: rgb(238,121,130);
+        cursor: pointer;
+        animation: bounce 1s;
+        filter: drop-shadow(20px 30px 40px rgb(255, 0, 0));
+    }
+}
+
+
+@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 
+ 40% {
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-15px);
+ }
+ 
+ 80% {
+ -webkit-transform: translateY(-10px);
+ transform: translateY(-5px);
+ }
 }
