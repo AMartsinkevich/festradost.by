@@ -650,9 +650,10 @@ h2 {
     margin-left: 70px;
 }
 
-.day-9-person1 {
+
+.day-11-person1 {
     display: inline-block;
-    background: url(../images/day/9/anima.png);
+    background: url(../images/day/11/o_Makariy.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -661,9 +662,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-9-person2 {
+.day-11-person2 {
     display: inline-block;
-    background: url(../images/day/9/voina.png);
+    background: url(../images/day/11/Ekaterina_Sheveleva.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -672,13 +673,9 @@ h2 {
     margin-left: 40px;
 }
 
-.big {
-    font-size: 3rem;
-}
-
-.day-9-person3 {
+.day-11-person3 {
     display: inline-block;
-    background: url(../images/day/9/koncert.png);
+    background: url(../images/day/11/o_Kirill_Sholkov.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -686,51 +683,6 @@ h2 {
     margin-bottom: 50px;
     margin-left: 40px;
 }
-
-.day-9-person4 {
-    display: inline-block;
-    background: url(../images/day/9/lidiya_skachko.png);
-    background-repeat: no-repeat;
-    width: 384px;
-    height: 384px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-}
-
-.day-9-person5 {
-    display: inline-block;
-    background: url(../images/day/9/);
-    background-repeat: no-repeat;
-    width: 384px;
-    height: 384px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-}
-
-.day-10-person1 {
-    display: inline-block;
-    background: url(../images/day/10/dashkevich.png);
-    background-repeat: no-repeat;
-    width: 384px;
-    height: 384px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-}
-
-.day-10-person2 {
-    display: inline-block;
-    background: url(../images/day/10/homich.png);
-    background-repeat: no-repeat;
-    width: 384px;
-    height: 384px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-}
-
 
 .event-header-text {
     width: 500px;
