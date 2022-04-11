@@ -304,6 +304,19 @@ div {
     left: 50px;
     position: relative;
 }
+.delimiter {
+    text-align: center;
+}
+
+.section-delimiter {
+    display: inline-block;
+    background: url(../images/line_border.png);
+    background-repeat: no-repeat;
+    width: 973px;
+    height: 47px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
 
 .place {
     font-size: +5rem;
@@ -651,9 +664,9 @@ h2 {
 }
 
 
-.day-11-person1 {
+.day-12-person1 {
     display: inline-block;
-    background: url(../images/day/11/o_Makariy.png);
+    background: url(../images/day/12_april/gagarin.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -662,9 +675,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-11-person2 {
+.day-12-person2 {
     display: inline-block;
-    background: url(../images/day/11/Ekaterina_Sheveleva.png);
+    background: url(../images/day/12_april/Makarskaya.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -673,9 +686,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-11-person3 {
+.day-12-person3 {
     display: inline-block;
-    background: url(../images/day/11/o_Kirill_Sholkov.png);
+    background: url(../images/day/12_april/o_Andrei.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
