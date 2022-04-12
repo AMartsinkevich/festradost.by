@@ -664,9 +664,9 @@ h2 {
 }
 
 
-.day-12-person1 {
+.day-13-person1 {
     display: inline-block;
-    background: url(../images/day/12_april/gagarin.png);
+    background: url(../images/day/13_april/avtor_pesnya.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -675,9 +675,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-12-person2 {
+.day-13-person2 {
     display: inline-block;
-    background: url(../images/day/12_april/Makarskaya.png);
+    background: url(../images/day/13_april/);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -686,9 +686,31 @@ h2 {
     margin-left: 40px;
 }
 
-.day-12-person3 {
+.day-13-person3 {
     display: inline-block;
-    background: url(../images/day/12_april/o_Andrei.png);
+    background: url(../images/day/13_april/o_Valeriy_Zaharov.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-13-person4 {
+    display: inline-block;
+    background: url(../images/day/13_april/saxophone.png);
+    background-repeat: no-repeat;
+    width: 384px;
+    height: 384px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.day-13-person5 {
+    display: inline-block;
+    background: url(../images/day/13_april/pavel_bubnov.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -818,6 +840,7 @@ h2 {
     }
     .home {
         position: fixed;
+        border-radius: 10px;
         bottom: 20px;
         right: 20px;
         display: inline-block;
