@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css?v=2022-04-12_01">
+    <link rel="stylesheet" href="./assets/css/style.css?v=2022-04-13_01">
 </head>
 <body>
     <header class="header" id="home">
@@ -61,7 +61,7 @@
 
     <section class="calendar" id="menu">
         <div class="wrapper">
-            <span class="button button-big button-calendar" onClick="location.href = 'https://obitel-minsk.ru/radost/programma-meropriyatij'"></span>
+            <span class="button button-big button-calendar" onClick="document.getElementById('calendar').scrollIntoView();"></span>
             <span class="button button-guests" onClick="document.getElementById('guests').scrollIntoView();"></span>
             <span class="button button-places" onClick="document.getElementById('places').scrollIntoView();"></span>
             <span class="button button-event" onClick="document.getElementById('day').scrollIntoView();"></span>
@@ -72,7 +72,7 @@
     </section>
 
     <div class="delimiter">
-        <span class="section-delimiter"></span>
+        <span class="section-delimiter-2"><span>Календарь мероприятий</span></span>
     </div>
 
     <section class="sub-calendar" id="calendar">
@@ -92,7 +92,7 @@
     </section>
 
     <div class="delimiter">
-        <span class="section-delimiter"></span>
+        <span class="section-delimiter-2"><span>Гости фестиваля</span></span>
     </div>
 
     <section class="sub-guests" id="guests">
@@ -114,7 +114,7 @@
     </section>
 
     <div class="delimiter">
-        <span class="section-delimiter"></span>
+        <span class="section-delimiter-2"><span>Площадки</span></span>
     </div>
 
     <section class="places" id="places">
@@ -217,32 +217,32 @@
     </section>
 
     <div class="delimiter">
-        <span class="section-delimiter"></span>
+        <span class="section-delimiter-2"><span>Событие дня</span></span>
     </div>
 
     <section class="event" id="day">
         <div class="wrapper">
 
-            <span class="day-ico"><p class="day-ico-text">13</p></span>
+            <span class="day-ico"><p class="day-ico-text">14</p></span>
 
             <div class="event-day-text">
 
                 <div class="event-header">
 
                     <div class="event-header-person">
-                        <span class="day-13-person1"></span>
-                        <span class="day-ico-time"><p class="day-ico-time-text">12:30</p></span>
+                        <span class="day-14-person1"></span>
+                        <span class="day-ico-time"><p class="day-ico-time-text">12:00</p></span>
                     </div>
 
                     <div class="event-header-text">
                         <p class="h-red">
                             <b>
-                                Литературная гостиная «Открытое сердце Церкви»
+                                Кинопоказ
                             </b>
                         </p>
                         <p class="h-red">
                             <b>
-                                Сестры и братья милосердия Сестричества в честь прпмч. Елисаветы
+                                Цикл «Беларусь. История»
                             </b>
                         </p>
                         <p class="h-black">
@@ -254,7 +254,7 @@
                 </div>
 
                 <p class="day-text">
-                    Авторские песни и стихи под живую музыку - дудук, гитара, фортепиано - исполнят братья и сестры и друзья монастыря. 
+                    Это российский проект, в рамках которого созданы анимационные ролики до 2 минут, где в доступном изложении для детей и взрослых рассказывают об исторических событиях на Белой Руси.
                 </p>
                 <br><br>
                 <p class="day-text">
@@ -270,80 +270,37 @@
                 <div class="event-header">
 
                     <div class="event-header-person">
-                        <span class="day-13-person2"></span>
-                        <span class="day-ico-time"><p class="day-ico-time-text">13.00</p></span>
-                    </div>
-
-                    <div class="event-header-text">
-                        <p class="h-red">
-                            <b>
-                                Мастер-класс по вытинанке «Символ Пасхи»
-                            </b>
-                        </p>
-                        <p class="h-red">
-                            <b>
-                                Пономаренко Елена, педагог ДДиМ «Золак» 7+
-                            </b>
-                        </p>
-                        <p class="h-black">
-                            <b>
-
-                            </b>
-                        </p>
-                    </div>
-                </div>
-
-                <p class="day-text">
-                    <br><br>Искусство вырезания кружевных узоров из бумаги возникло на белорусских землях еще в 19 веке. И до сегодняшнего дня его хранят и развивают народные мастера и профессиональные художники.
-                </p>
-                <br><br>
-                <p class="day-text">
-                    Традиционно вытинанкой украшали свой дом.
-                </p>
-                <br><br>
-                <p class="day-text">
-                    Подготовим и мы свой дом к великому празднику.
-                </p>
-
-            </div>
-
-            <span class="day-line"></span>                  
-
-            <div class="event-day-text">
-
-                <div class="event-header">
-
-                    <div class="event-header-person">
-                        <span class="day-13-person3"></span>
+                        <span class="day-14-person2"></span>
                         <span class="day-ico-time"><p class="day-ico-time-text">14:00</p></span>
                     </div>
 
                     <div class="event-header-text">
                         <p class="h-red">
                             <b>
-                                Проект «Живое слово»
+                                Проект «Наше здоровье»
                             </b>
                         </p>
                         <p class="h-red">
                             <b>
-                                Тема «Все дети наши»
+                                Тема «Вопросы и ответы»
                             </b>
                         </p>
                         <p class="h-black">
                             <b>
-                                Иерей Валерий Захаров
+                                Николай Огренич, врач-фитотерапевт
                             </b>
                         </p>
                     </div>
                 </div>
 
                 <p class="day-text">
-                    Один из создателей фонда отец Валерий, а также его участники расскажут о фонде Иоанна Русского. Этот фонд был создан для поддержки людей с особенностями развития в детском психоневрологическом интернате, который окормляет Свято-Елисаветинский монастырь.
+                    Николай – травник, у которого есть на фестивале своя травная точка. Он предложит свои сборы и ответит на вопросы, как человек может помочь себе тем природным лекарством, что подарил нам всем Бог.
                 </p>
                 <br><br>
                 <p class="day-text">
-                    Как они работают с детьми? В чем помогают? И чему мы можем научиться у этих детей?
+
                 </p>
+
             </div>
 
             <span class="day-line"></span>                  
@@ -353,35 +310,35 @@
                 <div class="event-header">
 
                     <div class="event-header-person">
-                        <span class="day-13-person4"></span>
+                        <span class="day-14-person3"></span>
                         <span class="day-ico-time"><p class="day-ico-time-text">17:00</p></span>
                     </div>
 
                     <div class="event-header-text">
                         <p class="h-red">
                             <b>
-                                Музыкальная программа студентов БГАМ
+                                Концерт ансамбля русских народных инструментов БГАМ
                             </b>
                         </p>
                         <p class="h-red">
                             <b>
-                                <br><br>
+
                             </b>
                         </p>
                         <p class="h-black">
                             <b>
-                                <br>
+                                Профессор Л.И.Черняк, художественный руководитель и дирижер
                             </b>
                         </p>
                     </div>
                 </div>
 
                 <p class="day-text">
-                    Музыкальные гости нашего фестиваля всегда очень востребованы, потому что профессионально исполняют программу. 
+                    Народные инструменты – это всегда ключ к нашему славянскому сердцу. Сложно объяснить, почему при звуках баяна играет и наша душа.
                 </p>
                 <br><br>
                 <p class="day-text">
-                    Послушаем квартет саксофонистов и брасс-квинтет.
+                    Поэтому просто приходите послушать ансамбль русских народных инструментов – баян, цимбалы, аккордеон.
                 </p>
             </div>
 
@@ -392,7 +349,7 @@
                 <div class="event-header">
 
                     <div class="event-header-person">
-                        <span class="day-13-person5"></span>
+                        <span class="day-14-person4"></span>
                         <span class="day-ico-time"><p class="day-ico-time-text">18:00</p></span>
                     </div>
 
@@ -404,23 +361,63 @@
                         </p>
                         <p class="h-red">
                             <b>
-                                Тема «Неизвестные страницы. История православия на белорусских землях»
+                                Тема «У Бога все живы»
                             </b>
                         </p>
                         <p class="h-black">
                             <b>
-                                Протодьякон Павел Бубнов, старший преподаватель Минской духовной академии, кандидат богословия
+                                Иерей Александр Насеко, председатель миссионерского отдела БПЦ
                             </b>
                         </p>
                     </div>
                 </div>
 
                 <p class="day-text">
-                    Тема приурочена к году исторической памяти, который совпал с 1030 летием зарождения православия на белорусских землях. 
+
+                    Отношения человека и Бога не заканчиваются и после его физической смерти. Они только переходят на другой уровень – уровень вечности. Воскресение Христа дает всем нам надежду на вечную жизнь с Богом. Только бы самим не отвернуться от Него.
                 </p>
                 <br><br>
                 <p class="day-text">
-                    Частый гость нашего фестиваля отец Павел расскажет о церковной деятельности Слуцких князей Олельковичей.
+
+                </p>
+            </div>
+
+            <span class="day-line"></span>                  
+
+            <div class="event-day-text">
+
+                <div class="event-header">
+
+                    <div class="event-header-person">
+                        <span class="day-14-person5"></span>
+                        <span class="day-ico-time"><p class="day-ico-time-text">18:00</p></span>
+                    </div>
+
+                    <div class="event-header-text">
+                        <p class="h-red">
+                            <b>
+                                Мастер-класс по росписи пряников «Вкусный подарок»
+                            </b>
+                        </p>
+                        <p class="h-red">
+                            <b>
+                                <br>
+                            </b>
+                        </p>
+                        <p class="h-black">
+                            <b>
+                                Художник Яковлева Надежда, 7+
+                            </b>
+                        </p>
+                    </div>
+                </div>
+
+                <p class="day-text">
+                    Пряники – традиционный символический подарок. Он и сделан своими руками, а значит с душой, и дополнит вкусное чаепитие. А роспись на прянике сделает его уникальным и персональным для одариваемого человека. 
+                </p>
+                <br><br>
+                <p class="day-text">
+                    Готовим подарки к Пасхе уже сейчас.
                 </p>
             </div>
 
@@ -429,7 +426,7 @@
     </section>
 
     <div class="delimiter">
-        <span class="section-delimiter"></span>
+        <span class="section-delimiter-2"><span>Благотворители</span></span>
     </div>
 
     <section class="sponsors" id="sponsors">
@@ -441,7 +438,7 @@
     </section>
 
     <div class="delimiter">
-        <span class="section-delimiter"></span>
+        <span class="section-delimiter-2"><span>Как добраться</span></span>
     </div>
 
     <section class="map" id="map">

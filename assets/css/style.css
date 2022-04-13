@@ -304,6 +304,7 @@ div {
     left: 50px;
     position: relative;
 }
+
 .delimiter {
     text-align: center;
 }
@@ -316,6 +317,24 @@ div {
     height: 47px;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+
+.section-delimiter-2 {
+    display: inline-block;
+    background: url(../images/line_border.png);
+    background-repeat: repeat-x;
+    background-position-x: -430px;
+    width: 1080px;
+    height: 47px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: Triod_Postnaja;
+    font-size: +5rem;
+    color: rgb(178, 64, 90);
+}
+
+.section-delimiter-2 span {
+    background-color: white;
 }
 
 .place {
@@ -664,9 +683,9 @@ h2 {
 }
 
 
-.day-13-person1 {
+.day-14-person1 {
     display: inline-block;
-    background: url(../images/day/13_april/avtor_pesnya.png);
+    background: url(../images/day/14_april/animation.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -675,9 +694,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-13-person2 {
+.day-14-person2 {
     display: inline-block;
-    background: url(../images/day/13_april/);
+    background: url(../images/day/14_april/ogrenich.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -686,9 +705,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-13-person3 {
+.day-14-person3 {
     display: inline-block;
-    background: url(../images/day/13_april/o_Valeriy_Zaharov.png);
+    background: url(../images/day/14_april/rus_instrument.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -697,9 +716,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-13-person4 {
+.day-14-person4 {
     display: inline-block;
-    background: url(../images/day/13_april/saxophone.png);
+    background: url(../images/day/14_april/o_Aleksandr_Naseko.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -708,9 +727,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-13-person5 {
+.day-14-person5 {
     display: inline-block;
-    background: url(../images/day/13_april/pavel_bubnov.png);
+    background: url(../images/day/14_april/);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
