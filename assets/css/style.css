@@ -208,7 +208,7 @@ div {
 .footer__navigation .navigation {
     margin-left: 50px;
     margin-right: 50px;
-    font-family: OfficinaSansBook;
+    font-family: OfficinaSansMedium;
     justify-items: center;
     display: grid;
     grid-auto-columns:auto; 
@@ -271,7 +271,7 @@ div {
 .promo_place {
     margin-top: 550px;
     color: rgb(240, 98, 98);
-    font-family: OfficinaSansBook;
+    font-family: OfficinaSansMedium;
     font-size: +3rem;
     vertical-align: center;   
 }
@@ -677,15 +677,15 @@ h2 {
 
 .day-ico-time-text {
     color: rgb(210, 48, 85);
-    font-family: OfficinaSansBook;
+    font-family: OfficinaSansBold;
     font-size: +5rem;
     margin-left: 70px;
 }
 
 
-.day-14-person1 {
+.day-15-person1 {
     display: inline-block;
-    background: url(../images/day/14_april/animation.png);
+    background: url(../images/day/15_april/o_Maksim_Loginov.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -694,9 +694,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-14-person2 {
+.day-15-person2 {
     display: inline-block;
-    background: url(../images/day/14_april/ogrenich.png);
+    background: url(../images/day/15_april/o_Sergiy_Falei.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -705,31 +705,9 @@ h2 {
     margin-left: 40px;
 }
 
-.day-14-person3 {
+.day-15-person3 {
     display: inline-block;
-    background: url(../images/day/14_april/rus_instrument.png);
-    background-repeat: no-repeat;
-    width: 384px;
-    height: 384px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-}
-
-.day-14-person4 {
-    display: inline-block;
-    background: url(../images/day/14_april/o_Aleksandr_Naseko.png);
-    background-repeat: no-repeat;
-    width: 384px;
-    height: 384px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 40px;
-}
-
-.day-14-person5 {
-    display: inline-block;
-    background: url(../images/day/14_april/);
+    background: url(../images/day/15_april/Choir.png);
     background-repeat: no-repeat;
     width: 384px;
     height: 384px;
@@ -747,14 +725,14 @@ h2 {
 
 .h-red {
     color: rgb(210, 48, 85);
-    font-family: OfficinaSansBook;
+    font-family: OfficinaSansMedium;
     font-size: +3rem;
     margin-bottom: 60px;;
 }
 
 .h-black {
     color: rgb(0, 0, 0);
-    font-family: OfficinaSansBook;
+    font-family: OfficinaSansMedium;
     font-size: +3rem;
 }
 
